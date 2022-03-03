@@ -1,0 +1,20 @@
+.v-table_pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.page{
+    padding: 8px;
+    border: solid 1px;
+    margin-right: 10px;
+}
+.page:hover{
+    background: #9fcdff;
+    cursor: pointer;
+    color: white;
+}
+.page_selected{
+    background: #9fcdff;
+    cursor: pointer;
+    color: white;
+}
